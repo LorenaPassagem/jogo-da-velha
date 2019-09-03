@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './styles/generic/reset.css'
+import './styles/elements/base.css'
+import './setting/spacing.css'
+
 import App from './App';
 
 
