@@ -1,0 +1,10 @@
+.showEvents {
+    color: var(--color-fourth);
+    font-family: 'Montserrat-Bold';
+    font-size:var(--size-small);
+    font-weight: bold;
+}
+
+.showEvents::selection {
+    background-color: var(--color-first);
+}

@@ -6,7 +6,7 @@ import playerO from '../../img/O.png';
 const Player = ({player}) => {
     const players = [];
     players['x'] = playerX;
-    players ['o'] = playerO;
+    players['o'] = playerO;
     
     return (<button className="player">
             <img src={players[player]} alt={`Imagem ${player}`} />
